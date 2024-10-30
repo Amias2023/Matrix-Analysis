@@ -65,11 +65,6 @@ $$
 A=\begin{bmatrix}
 \alpha & \omega^T \\
 v & B
-\end{bmatrix}
-\\
-\begin{bmatrix}
-\alpha & \omega^T \\
-v & B
 \end{bmatrix}=
 \begin{bmatrix}
 1 & 0 \\
