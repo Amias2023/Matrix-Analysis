@@ -133,5 +133,5 @@ R2_ = sprintf('R^2 = %.2f', R2); % R方
 text(0.6, 1, R2_,"FontSize",15,"Color",'b'); % 添加文本
 ```
 ## 7.运行环境
-* 本项目基于Matlab 2021a完成，可运行于Matlab 2006a 之后的版本。
+* 本项目基于Matlab 2024a完成，可运行于Matlab 2006a 之后的版本。
 * 可使用Visual Studio Code和Matlab运行。
