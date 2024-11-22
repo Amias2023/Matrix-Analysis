@@ -21,9 +21,9 @@
 ```Text
 1. 编程实现矩阵A的QR分解和利用此分解求解最小二乘问题。
 要求实现功能：
-（1）Householder QR；(参考课本P249 算法5.2.1)
-（2）Givens QR；(参考课本P252 算法5.2.4)
-（3）改进Gram-Schmidt QR；(参考课本P255 算法5.2.6)
+（1）Householder QR；
+（2）Givens QR；
+（3）改进Gram-Schmidt QR；
 （4）利用上述分解求解最小二乘问题 min||Ax-b||_2.
 输入：A, b
 输出：Q, R, x等
