@@ -29,3 +29,7 @@
 输出：Q, R, x等
 注：不得利用MATLAB自带qr函数。
 ```
+##### 第三个项目完成的任务是：
+```Text
+1.查阅相关文献，应用矩阵相关算法解决实际问题。本项目依据的文献为《Matrix Factorization Techniques for Recommender Systems》。
+```
