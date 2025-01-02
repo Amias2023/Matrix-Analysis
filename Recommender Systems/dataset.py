@@ -4,13 +4,13 @@ import pandas as pd
 def dataset(movies_num):
     movie_path = list()
     # 提取电影信息
-    movie = pd.read_csv('./推荐系统数据集/movie_titles.txt', header=None,nrows=movies_num)
+    movie = pd.read_csv('./Netflix Dataset/movie_titles.txt', header=None,nrows=movies_num)
     movie.columns=["Movie ID","Year","Name"]
     movie.to_csv("电影信息.csv")
     # 提取用户-电影信息
     for i in range(1,movies_num+1):
         s = 7-len(str(i))
-        path = "./推荐系统数据集/training_set" + "/" + "mv_" + "0"*s + str(i) + ".txt"
+        path = "./Netflix Dataset/training_set" + "/" + "mv_" + "0"*s + str(i) + ".txt"
         movie_path.append(path)
 
     user = pd.DataFrame(data=0, index=range(1,2649430), columns=range(1,movies_num+1))
